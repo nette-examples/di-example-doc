@@ -1,0 +1,10 @@
+parameters:
+	db:
+		dsn: 'sqlite::memory:'
+		user:
+		password:
+
+services:
+	- Nette\Database\Connection(%db.dsn%, %db.user%, %db.password%)
+	- ArticleFactory
+	- UserController

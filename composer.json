@@ -1,0 +1,10 @@
+{
+	"require": {
+		"php": "^8.0",
+		"nette/di": "^3.0",
+		"nette/database": "^3.1"
+	},
+	"autoload": {
+		"classmap": ["app"]
+	}
+}
