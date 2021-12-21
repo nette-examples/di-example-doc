@@ -11,11 +11,11 @@ class UserController extends Controller
 		$this->articleFactory = $articleFactory;
 	}
 
-	public function formSubmitted($values)
+	public function formSubmitted($data)
 	{
 		$article = $this->articleFactory->create();
-		$article->title = $values->title;
-		$article->content = $values->content;
+		$article->title = $data->title;
+		$article->content = $data->content;
 		$article->save();
 	}
 }
