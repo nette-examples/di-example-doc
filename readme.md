@@ -1,10 +1,12 @@
 Example of using Nette DI Container
 ===================================
 
-Purpose of the Dependecy Injection (DI) is to free classes from the responsibility for obtaining objects that they need for its operation (these objects are called **services**). Documentation can be found on the [website](https://doc.nette.org/dependency-injection).
+Dependency Injection (DI) enables classes to be relieved from the task of creating objects they depend on. These dependent objects are termed **services**. Comprehensive documentation is available at the official [Nette website](https://doc.nette.org/dependency-injection).
 
 Installation
 ------------
+
+To set up the example:
 
 ```shell
 git clone https://github.com/nette-examples/di-example-doc
@@ -12,10 +14,16 @@ cd di-example-doc
 composer install
 ```
 
-Run demo:
+Run the Demo
+------------
+
+Execute the demo using:
 
 ```shell
 php example.php
 ```
 
-It requires PHP version 8.0 and supports PHP up to 8.1.
+PHP Requirements
+----------------
+
+This demo is compatible with PHP version 8.0 up to 8.1.
