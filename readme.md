@@ -26,4 +26,4 @@ php example.php
 PHP Requirements
 ----------------
 
-This demo is compatible with PHP version 8.0 up to 8.1.
+This demo is compatible with PHP version 8.1 or newer.
